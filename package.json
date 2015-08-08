@@ -53,6 +53,6 @@
   },
   "scripts": {
     "install": "bower install",
-    "start": "bin/curvytron.js"
+    "start": "node bin/curvytron.js"
   }
 }
