@@ -52,7 +52,7 @@
     "MD5": "^1.2.*"
   },
   "scripts": {
-    "install": "bower install; gulp",
+    "install": "bower install",
     "start": "node curvytron.js"
   }
 }
