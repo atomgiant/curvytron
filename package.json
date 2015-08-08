@@ -42,7 +42,6 @@
     "gulp-util": "^2.2.*"
   },
   "dependencies": {
-    "bower": "latest",
     "express": "~4.11.*",
     "faye-websocket": "^0.9.*"
   },
@@ -52,7 +51,7 @@
     "MD5": "^1.2.*"
   },
   "scripts": {
-    "install": "gulp",
-    "start": "node bin/curvytron.js"
+    "install": "bower install",
+    "start": "bin/curvytron.js"
   }
 }
