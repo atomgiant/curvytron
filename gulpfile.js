@@ -143,3 +143,4 @@ gulp.task('watch', ['dev'], function () {
 
 gulp.task('default', ['jshint', 'server', 'front-expose', 'ga', 'views', 'front-min', 'sass-min']);
 gulp.task('dev', ['jshint', 'server', 'front-expose', 'copy-stress-test', 'ga', 'views', 'front-full', 'sass-full']);
+gulp.task('build', ['default']);
