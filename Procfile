@@ -1,1 +1,1 @@
-web: node curvytron.js
+web: node bin/curvytron.js
