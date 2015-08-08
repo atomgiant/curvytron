@@ -51,6 +51,7 @@
     "MD5": "^1.2.*"
   },
   "scripts": {
-    "install": "bower install"
+    "install": "bower install",
+    "start": "bin/curvytron.js"
   }
 }
