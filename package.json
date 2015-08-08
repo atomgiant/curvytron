@@ -53,6 +53,5 @@
   },
   "scripts": {
     "install": "bower install",
-    "start": "node curvytron.js"
   }
 }
